@@ -1,57 +1,63 @@
 \relax 
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
-\@writefile{toc}{\contentsline {section}{\numberline {2}Changes of this version of FW}{1}}
-\@writefile{toc}{\contentsline {section}{\numberline {3}32 board allocation and numbering}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Changes included in this version of note}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}32 board allocation and numbering}{2}}
 \@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Shelf 1.}}{2}}
 \newlabel{tab:shelf1}{{1}{2}}
 \@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Shelf 2.}}{2}}
 \newlabel{tab:shelf2}{{2}{2}}
 \@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Shelf 3.}}{2}}
 \newlabel{tab:shelf3}{{3}{2}}
-\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Shelf 4.}}{2}}
-\newlabel{tab:shelf4}{{4}{2}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Overview of the firmware}{3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Firmware overview.}}{3}}
-\newlabel{fig:OVERVIEW}{{1}{3}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Main logic}{3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}FMC interface}{3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Main logic overview.}}{4}}
-\newlabel{fig:MAIN_LOGIC_OVERVIEW}{{2}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Input data operator}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Output data operator}{4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces FMC interface firmware overview.}}{5}}
-\newlabel{fig:FMC_INTERFACE_OVERVIEW}{{3}{5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Internal link input / output}{5}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.1}Internal link}{5}}
-\@writefile{toc}{\contentsline {section}{\numberline {A}ATCA fabric interface}{5}}
-\@writefile{toc}{\contentsline {section}{\numberline {B}GT channel assignment}{5}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Internal data operator. One modules have three additional words, header, destination words and trailer.}}{6}}
-\newlabel{fig:INTERNAL_DATA_FORMAT}{{4}{6}}
-\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Input channel assignment for output data operator module. Defined in ``MAPPING\_CONF\_IDO2ODO'' and ``MAPPING\_CONF\_ILI2ODO'' in data\_formatter\_top/data\_formatter\_constants.vhd.}}{6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Input data operator firmware overview.}}{7}}
-\newlabel{fig:INPUT_DATA_OPERATOR_OVERVIEW}{{5}{7}}
-\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces SLINK output channel assignment (34 channel). ``MAPPING\_CONF\_SLINKOUT2GTLOC'' and ``MAPPING\_CONF\_SLINKOUT2GTLOC'' in data\_formatter\_top/data\_formatter\_constants.vhd.}}{7}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces State machine in Internal frame adder.}}{8}}
-\newlabel{fig:STATE_MACHINE_FRAME_ADDER}{{6}{8}}
-\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Input channel assignment for internal data output module (i.e. input of Central Switch.). Defined in ``MAPPING\_CONF\_IDO2ILO'' and ``MAPPING\_CONF\_ILI2ILO'' in data\_formatter\_top/data\_formatter\_constants.vhd.}}{8}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Output data operator firmware overview.}}{9}}
-\newlabel{fig:OUTPUT_DATA_OPERATOR_OVERVIEW}{{7}{9}}
-\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Internal link channel assignment. Defined in ``MAPPING\_CONF\_INTERNALLINK2GTCHANNEL'' and ``MAPPING\_CONF\_INTERNALLINK2GTLOC'' in data\_formatter\_top/data\_formatter\_constants.vhd.}}{9}}
-\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Pad-word definition. It will be inserted in the interface (TX side) every 128-word cycle, and removed in the interface (RX side) in The isKCharctor word is $1111$. This is for RX clock correction functionality.}}{9}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Schematics of event sorting buffer in the SLINK packer.}}{10}}
-\newlabel{fig:EVENT_SORTING_BUFFER}{{8}{10}}
-\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces idle word definition. At least it will be inserted in the interface every 128-word cycle. The isKCharctor word is $0001$.}}{10}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Internal link interface. This includes clock domain crossing (CDC) buffer between GT user clocks and main logic clock.}}{11}}
-\newlabel{fig:EVENT_INTERNALINK}{{9}{11}}
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Schematics of input and output internal link.}}{12}}
-\newlabel{fig:EVENT_INTERNALINK_INOUT}{{10}{12}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces ATCA fabric connection table.}}{13}}
-\newlabel{fig:ATCAFabricConnectionTable}{{11}{13}}
-\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Transceiver channel assignment summary (1). For RTM channels.}}{14}}
-\newlabel{fig:GTChannel1}{{12}{14}}
-\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Transceiver channel assignment summary (2). For Fabric and DF-IM channels.}}{15}}
-\newlabel{fig:GTChannel2}{{13}{15}}
-\@writefile{toc}{\contentsline {section}{\numberline {C}IP Bus registers}{16}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {C.1}IP Address}{16}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {C.2}Reset}{16}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {C.3}Front FIFO error}{16}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Shelf 4.}}{3}}
+\newlabel{tab:shelf4}{{4}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Overview of the firmware}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Firmware overview.}}{4}}
+\newlabel{fig:OVERVIEW}{{1}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Main logic}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Main logic overview.}}{5}}
+\newlabel{fig:MAIN_LOGIC_OVERVIEW}{{2}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}FMC interface}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces FMC interface firmware overview.}}{6}}
+\newlabel{fig:FMC_INTERFACE_OVERVIEW}{{3}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Input data operator}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Internal data operator. One modules have three additional words, header, destination words and trailer.}}{7}}
+\newlabel{fig:INTERNAL_DATA_FORMAT}{{4}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Input data operator firmware overview.}}{8}}
+\newlabel{fig:INPUT_DATA_OPERATOR_OVERVIEW}{{5}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces State machine in Internal frame adder for normal processing modes.}}{9}}
+\newlabel{fig:STATE_MACHINE_FRAME_ADDER_NORMAL_MODES}{{6}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces State machine in Internal frame adder for different processing modes.}}{10}}
+\newlabel{fig:STATE_MACHINE_FRAME_ADDER_ALL_MODES}{{7}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Output data operator}{11}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Input channel assignment for output data operator module. Defined in ``MAPPING\_CONF\_IDO2ODO'' and ``MAPPING\_CONF\_ILI2ODO'' in data\_formatter\_top/data\_formatter\_constants.vhd.}}{11}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces SLINK output channel assignment (34 channel). ``MAPPING\_CONF\_SLINKOUT2GTLOC'' and ``MAPPING\_CONF\_SLINKOUT2GTLOC'' in data\_formatter\_top/data\_formatter\_constants.vhd.}}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Output data operator firmware overview.}}{12}}
+\newlabel{fig:OUTPUT_DATA_OPERATOR_OVERVIEW}{{8}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Schematics of the early design of individual event sorting buffer in the SLINK packer. In the current design of DF FW, we have two event sorting buffers for each of the output lane for sorting odd and even numbered events separetely to increase the processing speed. Each sorting buffer is of 4K word size.}}{13}}
+\newlabel{fig:EVENT_SORTING_BUFFER_OLD}{{9}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Schematics of the current design of individual event sorting buffer in the SLINK packer. The current design strips off the express lane for modules of the current to save FW resources.}}{14}}
+\newlabel{fig:EVENT_SORTING_BUFFER_NEW}{{10}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Internal link input / output}{15}}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Input channel assignment for internal data output module (i.e. input of Central Switch.). Defined in ``MAPPING\_CONF\_IDO2ILO'' and ``MAPPING\_CONF\_ILI2ILO'' in data\_formatter\_top/data\_formatter\_constants.vhd.}}{16}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Internal link channel assignment. Defined in ``MAPPING\_CONF\_INTERNALLINK2GTCHANNEL'' and ``MAPPING\_CONF\_INTERNALLINK2GTLOC'' in data\_formatter\_top/data\_formatter\_constants.vhd.}}{16}}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Pad-word definition. It will be inserted in the interface (TX side) every 128-word cycle, and removed in the interface (RX side) in The isKCharctor word is $1111$. This is for RX clock correction functionality.}}{16}}
+\newlabel{tab:internallinkidle}{{5.4}{17}}
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces idle word definition. At least it will be inserted in the interface every 128-word cycle. The isKCharctor word is $0001$.}}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Internal link interface. This includes clock domain crossing (CDC) buffer between GT user clocks and main logic clock.}}{17}}
+\newlabel{fig:EVENT_INTERNALINK}{{11}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Schematics of input and output internal link.}}{18}}
+\newlabel{fig:EVENT_INTERNALINK_INOUT}{{12}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces DF sharing pattern.}}{19}}
+\newlabel{fig:DATA_SHARING_PATTERN}{{13}{19}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}ATCA fabric interface}{20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces ATCA fabric connection table.}}{20}}
+\newlabel{fig:ATCAFabricConnectionTable}{{14}{20}}
+\@writefile{toc}{\contentsline {section}{\numberline {B}GT channel assignment}{20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Transceiver channel assignment summary (1). For RTM channels.}}{21}}
+\newlabel{fig:GTChannel1}{{15}{21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Transceiver channel assignment summary (2). For Fabric and DF-IM channels.}}{22}}
+\newlabel{fig:GTChannel2}{{16}{22}}
+\@writefile{toc}{\contentsline {section}{\numberline {C}IP Bus registers}{23}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C.1}IP Address}{23}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C.2}Reset}{23}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C.3}Front FIFO error}{23}}
