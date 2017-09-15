@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.1.11)  15 SEP 2017 12:34
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.1.11)  15 SEP 2017 12:38
 entering extended mode
  %&-line parsing enabled.
 **main.tex
@@ -206,75 +206,76 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 34.
-
-Overfull \hbox (26.45592pt too wide) in paragraph at lines 36--37
-[]\OT1/cmr/m/n/10.95 The de-vel-op-ment log of DF FW is stored in: $\OT1/cmtt/m
-/n/10.95 https : / / its . cern . ch / jira / browse / FTKHWD-[]119$\OT1/cmr/m/
-n/10.95 .
- []
-
+(Font)              <10.95> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 63.
+(Font)              <5> on input line 62.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 122.
+
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <142.26378> not available
-(Font)              size <24.88> substituted on input line 78.
+(Font)              size <24.88> substituted on input line 142.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 123.
-
-[2] [3]
+] [2]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figures.pdf): PDF inclusion: found PD
 F version <1.5>, but at most version <1.4> allowed
-<figures.pdf, id=20, page=3, 722.7pt x 542.025pt>
+<figures.pdf, id=17, page=3, 722.7pt x 542.025pt>
 File: figures.pdf Graphic file (type pdf)
  <use figures.pdf, page 3>
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 167.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 166.
 
 
 (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 167.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 166.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figures.pdf): PDF inclusion: found PD
 F version <1.5>, but at most version <1.4> allowed
-<figures.pdf, id=23, page=4, 722.7pt x 542.025pt>
+<figures.pdf, id=20, page=4, 722.7pt x 542.025pt>
 File: figures.pdf Graphic file (type pdf)
  <use figures.pdf, page 4>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4
+[3
 
  <./figures.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figures.pdf): PDF inclusion: found PD
 F version <1.5>, but at most version <1.4> allowed
-<figures.pdf, id=54, page=5, 722.7pt x 542.025pt>
+<figures.pdf, id=51, page=5, 722.7pt x 542.025pt>
 File: figures.pdf Graphic file (type pdf)
  <use figures.pdf, page 5>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5 <./figures.pdf>] [6 <./figures.pdf>]
+[4 <./figures.pdf>] [5 <./figures.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figures.pdf): PDF inclusion: found PD
 F version <1.5>, but at most version <1.4> allowed
-<figures.pdf, id=94, page=6, 722.7pt x 542.025pt>
+<figures.pdf, id=91, page=6, 722.7pt x 542.025pt>
 File: figures.pdf Graphic file (type pdf)
  <use figures.pdf, page 6>
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figures.pdf): PDF inclusion: found PD
 F version <1.5>, but at most version <1.4> allowed
-<figures.pdf, id=97, page=7, 722.7pt x 542.025pt>
+<figures.pdf, id=94, page=7, 722.7pt x 542.025pt>
 File: figures.pdf Graphic file (type pdf)
  <use figures.pdf, page 7>
 
@@ -284,7 +285,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figures.pdf): PDF inclusion: found PD
 F version <1.5>, but at most version <1.4> allowed
-<figures.pdf, id=100, page=9, 722.7pt x 542.025pt>
+<figures.pdf, id=97, page=9, 722.7pt x 542.025pt>
 File: figures.pdf Graphic file (type pdf)
  <use figures.pdf, page 9>
 
@@ -294,33 +295,33 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figures.pdf): PDF inclusion: found PD
 F version <1.5>, but at most version <1.4> allowed
-<figures.pdf, id=103, page=8, 722.7pt x 542.025pt>
+<figures.pdf, id=100, page=8, 722.7pt x 542.025pt>
 File: figures.pdf Graphic file (type pdf)
  <use figures.pdf, page 8>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7 <./figures.pdf>] [8 <./figures.pdf>] [9 <./figures.pdf>] [10 <./figures.pdf>
-]
-Underfull \hbox (badness 5862) in paragraph at lines 291--291
+[6 <./figures.pdf>] [7 <./figures.pdf>] [8 <./figures.pdf>] [9 <./figures.pdf>]
+
+Underfull \hbox (badness 5862) in paragraph at lines 290--290
 []\OT1/cmr/m/n/10.95 Table 5: In-put chan-nel as-sign-ment for out-put data op-
 er-a-tor mod-ule. De-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
+Underfull \hbox (badness 10000) in paragraph at lines 290--290
 \OT1/cmr/m/n/10.95 fined in ``MAP-PING[]CONF[]IDO2ODO'' and ``MAP-PING[]CONF[]I
 LI2ODO'' in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 []\OT1/cmr/m/n/10.95 Table 6: SLINK out-put chan-nel as-sign-ment (34 chan-nel)
 . ``MAP-
  []
 
 
-Underfull \hbox (badness 6141) in paragraph at lines 320--320
+Underfull \hbox (badness 6141) in paragraph at lines 319--319
 \OT1/cmr/m/n/10.95 PING[]CONF[]SLINKOUT2GTLOC'' and ``MAP-PING[]CONF[]SLINKOUT2
 GTLOC'' in
  []
@@ -332,7 +333,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figures.pdf): PDF inclusion: found PD
 F version <1.5>, but at most version <1.4> allowed
-<figures.pdf, id=283, page=10, 722.7pt x 542.025pt>
+<figures.pdf, id=280, page=10, 722.7pt x 542.025pt>
 File: figures.pdf Graphic file (type pdf)
  <use figures.pdf, page 10>
 
@@ -342,7 +343,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figures.pdf): PDF inclusion: found PD
 F version <1.5>, but at most version <1.4> allowed
-<figures.pdf, id=286, page=11, 722.7pt x 542.025pt>
+<figures.pdf, id=283, page=11, 722.7pt x 542.025pt>
 File: figures.pdf Graphic file (type pdf)
  <use figures.pdf, page 11>
 
@@ -352,16 +353,16 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figures.pdf): PDF inclusion: found PD
 F version <1.5>, but at most version <1.4> allowed
-<figures.pdf, id=289, page=12, 722.7pt x 542.025pt>
+<figures.pdf, id=286, page=12, 722.7pt x 542.025pt>
 File: figures.pdf Graphic file (type pdf)
  <use figures.pdf, page 12>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[11
+[10
 
-] [12 <./figures.pdf>] [13 <./figures.pdf>] [14 <./figures.pdf>]
-Overfull \hbox (0.95819pt too wide) in paragraph at lines 358--359
+] [11 <./figures.pdf>] [12 <./figures.pdf>] [13 <./figures.pdf>]
+Overfull \hbox (0.95819pt too wide) in paragraph at lines 357--358
 []\OT1/cmr/m/n/10.95 Bit Er-ror Rate Test (BERT) pat-tern gen-er-a-tor : $\OT1/
 cmtt/m/n/10.95 pulsar2 _ df _ internal _ link / pattern _
  []
@@ -370,18 +371,18 @@ cmtt/m/n/10.95 pulsar2 _ df _ internal _ link / pattern _
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--410
+Underfull \hbox (badness 10000) in paragraph at lines 409--409
 []\OT1/cmr/m/n/10.95 Table 8: In-ter-nal link chan-nel as-sign-ment. De-fined i
 n
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--410
+Underfull \hbox (badness 10000) in paragraph at lines 409--409
 \OT1/cmr/m/n/10.95 ``MAP-PING[]CONF[]INTERNALLINK2GTCHANNEL'' and ``MAP-
  []
 
 
-Overfull \hbox (14.66632pt too wide) in paragraph at lines 410--410
+Overfull \hbox (14.66632pt too wide) in paragraph at lines 409--409
 \OT1/cmr/m/n/10.95 PING[]CONF[]INTERNALLINK2GTLOC'' in data[]formatter[]top/dat
 a[]formatter[]constants.vhd. 
  []
@@ -399,7 +400,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figures.pdf): PDF inclusion: found PD
 F version <1.5>, but at most version <1.4> allowed
-<figures.pdf, id=365, page=13, 722.7pt x 542.025pt>
+<figures.pdf, id=362, page=13, 722.7pt x 542.025pt>
 File: figures.pdf Graphic file (type pdf)
  <use figures.pdf, page 13>
 
@@ -409,7 +410,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figures.pdf): PDF inclusion: found PD
 F version <1.5>, but at most version <1.4> allowed
-<figures.pdf, id=368, page=14, 722.7pt x 542.025pt>
+<figures.pdf, id=365, page=14, 722.7pt x 542.025pt>
 File: figures.pdf Graphic file (type pdf)
  <use figures.pdf, page 14>
 
@@ -419,25 +420,25 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figures.pdf): PDF inclusion: found PD
 F version <1.5>, but at most version <1.4> allowed
-<figures.pdf, id=371, page=15, 722.7pt x 542.025pt>
+<figures.pdf, id=368, page=15, 722.7pt x 542.025pt>
 File: figures.pdf Graphic file (type pdf)
  <use figures.pdf, page 15>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[15
+[14
 
-] [16] [17 <./figures.pdf>] [18 <./figures.pdf>] [19 <./figures.pdf>]
+] [15] [16 <./figures.pdf>] [17 <./figures.pdf>] [18 <./figures.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figures.pdf): PDF inclusion: found PD
 F version <1.5>, but at most version <1.4> allowed
-<figures.pdf, id=438, page=16, 722.7pt x 542.025pt>
+<figures.pdf, id=434, page=16, 722.7pt x 542.025pt>
 File: figures.pdf Graphic file (type pdf)
  <use figures.pdf, page 16>
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figures.pdf): PDF inclusion: found PD
 F version <1.5>, but at most version <1.4> allowed
-<figures.pdf, id=441, page=17, 722.7pt x 542.025pt>
+<figures.pdf, id=437, page=17, 722.7pt x 542.025pt>
 File: figures.pdf Graphic file (type pdf)
  <use figures.pdf, page 17>
 
@@ -447,20 +448,23 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figures.pdf): PDF inclusion: found PD
 F version <1.5>, but at most version <1.4> allowed
-<figures.pdf, id=444, page=18, 722.7pt x 542.025pt>
+<figures.pdf, id=440, page=18, 722.7pt x 542.025pt>
 File: figures.pdf Graphic file (type pdf)
  <use figures.pdf, page 18>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[20
+[19
 
- <./figures.pdf>] [21 <./figures.pdf>] [22 <./figures.pdf>] [23
+ <./figures.pdf>] [20 <./figures.pdf>] [21 <./figures.pdf>] [22
 
 ] (./main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 117.38377pt have occurred.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
@@ -480,9 +484,9 @@ m/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb><
 /usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/te
 xmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive
 /fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (23 pages, 1785762 bytes).
+Output written on main.pdf (22 pages, 1784493 bytes).
 PDF statistics:
- 551 PDF objects out of 1000 (max. 8388607)
+ 548 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  177 words of extra memory for PDF output out of 10000 (max. 10000000)
 
